@@ -8,14 +8,14 @@ import java.util.concurrent.Executors;
 /**
  * Created by Brandon on 10/23/2016.
  */
-public class ReInNeuralNetwork {
+public class DAPNeuralNetwork {
     private static Random generator;
 
     private Neuron[][] layers;
     private double learningRate;
     private double decayRate;
 
-    public ReInNeuralNetwork(int[] size, double _learningRate, double _decayRate) {
+    public DAPNeuralNetwork(int[] size, double _learningRate, double _decayRate) {
         generator = new Random();
         learningRate = _learningRate;
         decayRate = _decayRate;
