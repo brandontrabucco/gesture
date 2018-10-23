@@ -1,3 +1,5 @@
+**This repository is not being maintained, has a few bugs, and is not very efficient. Proceed with caution :)**
+
 # Gesture
 Gesture is an Android App that uses Long Short-term Memory (LSTM) to perceive motion much like the human eye. This app is trained to differentiate between six different human gestures: waving, beckoning, halt, no, thumbs up, and clapping. The app displays a set of probabilities for each gesture based on what the front camera sees.
 
